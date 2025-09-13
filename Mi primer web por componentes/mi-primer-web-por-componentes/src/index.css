@@ -1,0 +1,22 @@
+
+
+body {
+  margin: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
